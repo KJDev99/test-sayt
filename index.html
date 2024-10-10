@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kompyuterlar haqida</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Kompyuterlar haqida</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Bosh sahifa</a></li>
+          <li><a href="#types">Kompyuter turlari</a></li>
+          <li><a href="#contact">Aloqa</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+      <h2>Kompyuterlar dunyosiga xush kelibsiz!</h2>
+      <p>
+        Kompyuterlar bugungi kunda har bir sohada keng qo'llanilmoqda. Ushbu
+        sayt orqali kompyuter turlari va ularning ishlash mexanizmlari haqida
+        bilib olishingiz mumkin.
+      </p>
+      <button id="learn-more">Ko'proq o'rganing</button>
+    </section>
+
+    <section id="types">
+      <h2>Kompyuter turlari</h2>
+      <div class="computer-types">
+        <div class="type">
+          <h3>Shaxsiy Kompyuter (PC)</h3>
+          <p>
+            Shaxsiy kompyuter (PC) – ofis, uy va boshqa joylarda foydalanish
+            uchun mo'ljallangan kompyuterlar.
+          </p>
+        </div>
+        <div class="type">
+          <h3>Noutbuk</h3>
+          <p>
+            Noutbuk – ko'chma kompyuter bo'lib, yengilligi va oson tashilishi
+            tufayli keng qo'llaniladi.
+          </p>
+        </div>
+        <div class="type">
+          <h3>Server Kompyuter</h3>
+          <p>
+            Serverlar boshqa kompyuterlar bilan ishlash uchun xizmat qiluvchi,
+            katta ma'lumotlarni qayta ishlaydigan kompyuterlar.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Aloqa</h2>
+      <form id="contact-form">
+        <label for="name">Ism:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Elektron pochta:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Xabar:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Yuborish</button>
+      </form>
+      <p id="response-message"></p>
+    </section>
+
+    <footer>
+      <p>© 2024 Kompyuterlar haqida. Barcha huquqlar himoyalangan.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
